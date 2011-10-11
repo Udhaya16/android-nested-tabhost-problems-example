@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NestedTabHost</string>
+    <string name="firstProblem"><b>First Unexpected Behaviour</b></string>
+    <string name="secondProblem"><b>Second Unexpected Behaviour</b></string>
+    <string name="firstProblemDescription">When creating a dialog in nested tab hosts the default approach will result in an exception. The provided solution overcomes this problem.\n<b>Press the button below to try it out</b></string>
+    <string name="secondProblemDescription">Within nested tab hosts a click on the search button of your phone will cause a crash. The normal behaviour would be to show the default search box. This is now working due to the changes made.\n<b>Try it out.</b></string>
+    <string name="dialog">Show Dialog</string>
+    <string name="outer">Outer Tab</string>
+    <string name="inner">Inner Tab</string>
+    <string name="dialogMessage">The dialog is working!</string>
+</resources>
